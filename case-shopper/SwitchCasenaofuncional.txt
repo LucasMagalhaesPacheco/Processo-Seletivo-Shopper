@@ -1,0 +1,40 @@
+// case (states.page === 2) :
+    //     return <section>
+    //         <button onClick={goToPreviousPage}>{states.page - 1}</button>
+    //         <button>{states.page}</button>
+    //         <button onClick={goToNextPage}>{states.page + 1}</button>
+    //         <button onClick={goToNexTwoPage}>{states.page +2}</button>
+    //         <button onClick={goToNextPage}> &#62;</button>
+    //         <button onClick={goToFinalPage}>Última</button>
+    //     </section>
+        
+    // case (states.page === 3) :
+    //     return <section>
+    //          <button onClick={goToFirstPage}>Primeira</button>
+    //          <button onClick={goToPreviousPage}>{states.page -1}</button>
+    //          <button>{states.page}</button>
+    //          <button onClick={goToNextPage}>{states.page + 1}</button>
+    //          <button onClick={goToNextPage}> &#62;</button>
+    //          <button onClick={goToFinalPage}>Última</button>
+    //         </section>
+        
+    // case (states.page === 4) :
+    //     return <section>
+    //         <button onClick={goToFirstPage}>Primeira</button>
+    //         <button onClick={goToPreviousTwoPage}>{states.page - 2}</button> 
+    //         <button onClick={goToPreviousPage}>{states.page -1}</button>
+    //         <button>{states.page}</button>
+    //         <button onClick={goToNextPage}> &#62;</button>
+    //         <button onClick={goToFinalPage}>Última</button>
+    //         </section>
+        
+    // case (states.page === 5):
+    //     return <section>
+    //         <button onClick={goToFirstPage}>Primeira</button>
+    //         <button onClick={goToPreviousPage}> &#60; </button>
+    //         <button onClick={goToPreviousTwoPage}>{states.page - 2}</button> 
+    //         <button onClick={goToPreviousPage}>{states.page -1}</button>
+    //         <button>{states.page}</button>
+    //         </section>
+        
+    // }

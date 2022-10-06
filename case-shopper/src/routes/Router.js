@@ -12,7 +12,7 @@ return (
  <GlobalStyle />
  <Header />
  <Routes>
-   <Route index exact default path="/" element={<HomePage />} /> 
+   <Route index exact default path="/" element={<HomePage />} />
    <Route exact path='/carrinho' element={<CartPage />}/>
    <Route exact path="*" element={<ErrorPage />} />
  </Routes>

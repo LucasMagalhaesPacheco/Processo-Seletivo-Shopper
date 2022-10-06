@@ -6,6 +6,7 @@ flex-direction: row;
 margin: 1.875rem auto;`
 
 export const  MyPage = styled.button`
+
 min-width: 3.125rem;
 padding: 0.625rem;
 height: 2.5rem;
@@ -20,8 +21,4 @@ padding: 0.625rem;
 height: 2.5rem;
 color: #0FA66E;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-@media screen and (max-device-width : 480px){
-    padding: 0.375rem;
-}
-
 `
