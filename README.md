@@ -47,6 +47,7 @@ Representa os produtos do carrinho de nossa aplicação. Todo produto do carrinh
  `qty_stock INT NULL`
  
  ###Shopper_Products_Cart
+ 
  ` id varchar(255) Primary Key`
  `product_id varchar(255) NOT null`
  `product_name varchar(255) NOT NULL`
