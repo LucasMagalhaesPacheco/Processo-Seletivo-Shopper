@@ -70,7 +70,7 @@ Representa os produtos do carrinho de nossa aplicação. Todo produto do carrinh
  
  Back End
  
- cd back
+ cd BackEnd
  
  npm install 
  
@@ -78,7 +78,7 @@ Representa os produtos do carrinho de nossa aplicação. Todo produto do carrinh
  
  cd ..
  
- cd front
+ cd case-shopper
  
  npm install
  
