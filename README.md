@@ -121,6 +121,7 @@ DB_SCHEMA = nome-do-banco-de-dados
 -   styled-components
 -   axios 
 -   react-router-dom, 
+-   Jest
 
 ### Programas utilizados
 
