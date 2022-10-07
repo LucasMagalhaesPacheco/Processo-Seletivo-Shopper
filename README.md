@@ -94,6 +94,17 @@ DB_PASSWORD = senha
 DB_SCHEMA = nome-do-banco-de-dados
 ```
 
+### Populando a tabela:
+
+-   `npm run migrations`
+    Cria e popula as tabelas com dados _mockados_ de Produtos.
+    -   _Esse script deve ser executado apenas uma única vez_
+    -   _Se executado uma segunda vez, ele dropa as tabelas e reseta os dados mockados_
+
+
+### Coverage 
+
+![Screenshot_1](https://user-images.githubusercontent.com/104689597/194585177-8d4f2d81-6d39-453f-9901-4bc628658e12.png)
 
 ### Tecnologias utilizadas
 
