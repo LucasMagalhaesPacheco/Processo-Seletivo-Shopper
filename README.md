@@ -28,8 +28,9 @@ Representa os produtos de nossa aplicação. Todo produtos é composto pelas seg
 ### ProductsCarts (TypeScript)
 
 Representa os produtos do carrinho de nossa aplicação. Todo produto do carrinho é composto pelas seguintes características:
--`id (string) e gerado pela própria aplicação`
--`product_id (string)`
+
+- `id (string) e gerado pela própria aplicação`
+- `product_id (string)`
 - `product_name (string)`
 - `product_price (number)`
 - `checkout (number) e gerado pela própria aplicação`
