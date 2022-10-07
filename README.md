@@ -91,8 +91,7 @@ PORT: 3003
 DB_HOST = host
 DB_USER = usuario
 DB_PASSWORD = senha
-DB_NAME = nome-do-banco-de-dados
-JWT_KEY = "minha-senha-segura"
+DB_SCHEMA = nome-do-banco-de-dados
 ```
 
 
