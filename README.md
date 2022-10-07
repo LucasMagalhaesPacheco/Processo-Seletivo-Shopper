@@ -89,7 +89,6 @@ Representa os produtos do carrinho de nossa aplicação. Todo produto do carrinh
 Criar o arquivo `.env` e configurar com as informações de seu banco de dados.
 
 ```
-PORT: 3003
 DB_HOST = host
 DB_USER = usuario
 DB_PASSWORD = senha
