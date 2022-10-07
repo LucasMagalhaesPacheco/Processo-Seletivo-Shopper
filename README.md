@@ -128,12 +128,11 @@ DB_SCHEMA = nome-do-banco-de-dados
 
 -   Git
 -   VSCode
--   Extensão REST Client
--   Extensão Markdown Preview Enchanced
 -   WorkBanch Studio
 -   Postman API Platform
 -   Heroku: Cloud Application Platform
 -   Surge
+
 
 
 ### 🧑‍💻 Desenvolvedores:
