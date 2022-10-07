@@ -58,6 +58,16 @@ export class ProductDataBase extends BaseDataBase {
         return ProductCartDB[0]
     }
 
+    public getProductsById = async (id: string): Promise<IProductDBModelDTO| undefined> => {
+        const productDB: IProductDBModelDTO[] = await this.getConnetion()
+        .select()
+        .from(ProductDataBase.PRODUCTS_TABLE)
+        .where({id: id})
+
+        return productDB[0]
+        
+    }
+
     public createCartProduct = async (product: ProductsCarts): Promise<void> => {
         const productDB =  this.ProductCartsDBModel(product)
 
