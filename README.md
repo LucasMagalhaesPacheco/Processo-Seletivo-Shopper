@@ -145,7 +145,7 @@ DB_SCHEMA = nome-do-banco-de-dados
 - Remover produtos
 - Finalizar a compra
 
-###Prints
+### Prints
 
 ![image](https://user-images.githubusercontent.com/104689597/194445653-ffa57f1f-e36d-49aa-b01b-cdcca2e277a6.png)
 
