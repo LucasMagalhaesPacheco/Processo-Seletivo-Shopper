@@ -78,8 +78,6 @@ Representa os produtos do carrinho de nossa aplicação. Todo produto do carrinh
  
  Front end
  
- cd ..
- 
  cd case-shopper
  
  npm install
