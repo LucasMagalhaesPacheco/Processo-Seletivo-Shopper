@@ -22,7 +22,7 @@ const CartPage = () => {
         toast.error(`A quantidade solicitada está indisponível em nosso estoque, escolha um valor menor de produto ${productsINCarts[0].qty_stock}`)
       } else {
         const body = {
-          'amount': newAmount
+          amount: newAmount
         }
 
         axios.put(`${BASE_URL}/products/${productsINCarts.id}`, body)

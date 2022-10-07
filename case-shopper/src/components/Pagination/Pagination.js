@@ -6,6 +6,15 @@ const Pagination = () => {
 
    const { states, setters } = useContext(GlobalContext)
 
+   const goToFirstPage = () => {
+      setters.setPage(1)
+      setters.setAtualizationGets(states.atualizationGets + 1)
+   }
+   const goToFinalPage = () => {
+      setters.setPage(5)
+      setters.setAtualizationGets(states.atualizationGets + 1)
+   }
+
    const goToNextPage = () => {
       setters.setPage(states.page + 1)
       setters.setAtualizationGets(states.atualizationGets + 1)
@@ -22,14 +31,7 @@ const Pagination = () => {
       setters.setPage(states.page + 2)
       setters.setAtualizationGets(states.atualizationGets + 1)
    }
-   const goToFirstPage = () => {
-      setters.setPage(1)
-      setters.setAtualizationGets(states.atualizationGets + 1)
-   }
-   const goToFinalPage = () => {
-      setters.setPage(5)
-      setters.setAtualizationGets(states.atualizationGets + 1)
-   }
+
    
    if (states.page === 1) {
       return <SwitchPage>
