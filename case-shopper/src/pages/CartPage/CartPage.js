@@ -19,10 +19,10 @@ const CartPage = () => {
       const newAmount = Number((prompt("Quantas unidades você quer adicionar ao carrinho?")))
 
       if (newAmount > productsINCarts[0] && productsINCarts[0].qty_stock) {
-        toast.error(`A quantidade solicitada está indisponível em nosso estoque, escolha um valor menor de produto ${productsINCarts[0].qty_stock}`)
+        toast.error(`A quantidade solicitada está indisponível em nosso estoque, escolha um valor menor de produto`)
       } else {
         const body = {
-          'amount': newAmount
+          amount: newAmount
         }
 
         axios.put(`${BASE_URL}/products/${productsINCarts.id}`, body)
@@ -53,7 +53,7 @@ const CartPage = () => {
         </ProductCartListQuantityAndPrice>
         <ProductPriceCart>{` Total: R$ ${productsINCarts.product_totalPrice}`}</ProductPriceCart>
         <ButtonDeleteCart onClick={() => removeProductFromCart()}> Remover <BsFillCartXFill /></ButtonDeleteCart>
-        <ButtonAddCart key={productsINCarts.id} onClick={() => updateAmountProduct()}>Atualizar Carrinho <BsCartCheckFill /> </ButtonAddCart>
+        <ButtonAddCart  onClick={() => updateAmountProduct()}>Atualizar Carrinho <BsCartCheckFill /> </ButtonAddCart>
       </ProductCart>
     )
   })
@@ -92,21 +92,19 @@ const CartPage = () => {
               {AllProductsCarts}
             </ProductCartSection>
 
-            <section />
-            <section>
+            
+            
               <H1>Valor total: R$ {totalPriceString}</H1>
               <H1>Pegaremos algumas informações sua para fazer entrega</H1>
               <FormPurchase>
-                <div>
                   <InputForm placeholder='Seu Nome completo' />
-                </div>
-
+            
                 <H1>Data de entrega:</H1>
                 <SelectForm type='date' min={today} />
               </FormPurchase>
 
               <ButtonPurchase onClick={() => finishPurchase()}> Finalizar pedido</ButtonPurchase>
-            </section>
+            
           </section>
         </>
         :

@@ -11,9 +11,10 @@ const Products = () => {
  const {states, setters} = useContext(GlobalContext)
 
  const allProducts = states.productList && states.productList.map((products) => {
+    
     const addToCart = (product) => { 
         const productToCart = states.productCartList && states.productCartList.filter((productCart) => {
-        if (productCart.productName === products.name) {
+        if (productCart.product_id === products.id) {
             return productCart
         } 
     })
