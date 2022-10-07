@@ -20,7 +20,7 @@ O Deploy do Heroku pode-ser vista: https://case-shopper-lucas-magalhaes.herokuap
 
 Representa os produtos de nossa aplicação. Todo produtos é composto pelas seguintes características:
 
-- `id(string) e gerado pela própria aplicação`
+- `id(string) é gerado pela própria aplicação`
 - `name(string)`
 - `price(number)`
 - `qty_stock(number)`
@@ -29,7 +29,7 @@ Representa os produtos de nossa aplicação. Todo produtos é composto pelas seg
 
 Representa os produtos do carrinho de nossa aplicação. Todo produto do carrinho é composto pelas seguintes características:
 
-- `id (string) e gerado pela própria aplicação`
+- `id (string) é gerado pela própria aplicação`
 - `product_id (string)`
 - `product_name (string)`
 - `product_price (number)`
