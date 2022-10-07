@@ -92,6 +92,20 @@ export  class ProductDatabaseMock extends BaseDataBase {
            }
     }
 
+    public getProductsById = async (id: string): Promise<IProductDBModelDTO | undefined> => {
+       switch(id) {
+        case "16": 
+        return {
+            id:"16",
+            name:"AZEITE  PORTUGUÊS EXTRA VIRGEM GALLO 500ML",	
+            price: 20.49,
+            qty_stock: 158
+        }
+        
+    }
+
+}
+
     public UpdateProductById = async (input: IFinalUpdateProductInputDTO): Promise<void> => {}
 
     public getAllProductsCart = async (): Promise<IProductCartDBModelDTO[] | undefined> => {

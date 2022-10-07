@@ -18,9 +18,6 @@ const CartPage = () => {
     const updateAmountProduct = () => {
       const newAmount = Number((prompt("Quantas unidades você quer adicionar ao carrinho?")))
 
-      if (newAmount > productsINCarts[0] && productsINCarts[0].qty_stock) {
-        toast.error(`A quantidade solicitada está indisponível em nosso estoque, escolha um valor menor de produto`)
-      } else {
         const body = {
           amount: newAmount
         }
@@ -30,8 +27,9 @@ const CartPage = () => {
             setters.setAtualizationGets(states.atualizationGets + 1)
           })
           .catch((err) => {
+            toast.success("Quantidade inserida maior que a quantidade máxima do produto")
           })
-      }
+      
     }
 
     const removeProductFromCart = () => {
