@@ -33,7 +33,7 @@ Representa os produtos do carrinho de nossa aplicação. Todo produto do carrinh
 - `product_name (string)`
 - `product_price (number)`
 - `checkout (number) e gerado pela própria aplicação`
-- `product_amount(number) 
+- `product_amount(number)`
 - `product_totalPrice(number) e gerado pela própria aplicação`
 
 
