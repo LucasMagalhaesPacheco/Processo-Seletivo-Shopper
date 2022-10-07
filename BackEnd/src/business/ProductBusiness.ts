@@ -141,6 +141,16 @@ export class ProductBusiness {
             throw new InvalidError("Produto não se encontra em seu carrinho")
         }
 
+        const productStock = await this.productData.getProductsById(productCartDBO.product_id)
+
+        if(!productStock) {
+            throw new InvalidError("Produto não encontrado no banco de dados")
+        }
+
+        if(amount > productStock.qty_stock) {
+            throw new InvalidError("Quantidade de produtos é maior que a existe no banco de dados")
+        }
+
         const price = productCartDBO.product_price
 
         const totalPrice = price * amount
@@ -251,16 +261,6 @@ export class ProductBusiness {
 
         const productId = productDB.product_id
         const amount = productDB.product_amount
-
-        const productStock = await this.productData.getProductsById(productId)
-
-        if(!productStock) {
-            throw new InvalidError("Produto não encontrado no banco de dados")
-        }
-
-        if(amount > productStock.qty_stock) {
-            throw new InvalidError("Quantidade de produtos é maior que a existe no banco de dados")
-        }
 
         const newProduct: IPutStockInputDTO = {
             productId,
