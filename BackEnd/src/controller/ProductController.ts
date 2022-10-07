@@ -162,5 +162,17 @@ export class ProductController {
         }
     }
 
+    public getProductById = async (req: Request, res: Response) => {
+        try {
+            
+        } catch (error) {
+            if(error instanceof Error) {
+                return res.status(res.statusCode).send({message: error.message})
+            } // Verificação para não ser necessário tipar o Erro como Any
+    
+            res.status(500).send("Erro inesperado") // Erro de servidor
+        }
+    }
+
     
 }
