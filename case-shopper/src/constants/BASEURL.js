@@ -1,0 +1,1 @@
+export const BASE_URL = "https://case-shopper-lucas-magalhaes.herokuapp.com"
