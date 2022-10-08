@@ -10,7 +10,7 @@ e o front-end em ReactJS. No back, utilizei as libs express, cors, dontenv, knex
 O deploy do back foi feito no Heroku e API documentada pode-se encontrada no endereço:
 https://documenter.getpostman.com/view/21555306/2s83zfRRK1#d66df008-187e-4e2f-825e-033bc602c40d
 
-O Front foi publicado por meio surge, no endereço: https://shopper-case-lucas-magalhaes.surge.sh
+O Front foi publicado por meio surge, no endereço: http://case-shopper-lucas-surge.sh (Surge caiu, no sábado dia 08/10/2022) - Talvez tenha voltado dias posteriores.
 
 O Deploy do Heroku pode-ser vista: https://case-shopper-lucas-magalhaes.herokuapp.com
 
