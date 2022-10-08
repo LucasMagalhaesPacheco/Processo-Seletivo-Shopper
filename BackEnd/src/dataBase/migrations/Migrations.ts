@@ -50,7 +50,7 @@ class Migrations extends BaseDataBase {
      );`)
     }
 
-    insertData = async () => {
+    insertData = async (): Promise<any> => {
         await this.getConnetion()
         .into(ProductDataBase.PRODUCTS_TABLE)
         .insert(products)
