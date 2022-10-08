@@ -13,18 +13,22 @@ const CartPage = () => {
   const today = new Date()
 
 
-  const finishPurchase = () => {
+  const finishPurchase =  () => {
     states.productCartList && states.productCartList.map((purchaseItens) => {
-      const finalizationPurchase = () => {
-        axios.put(`${BASE_URL}/products/checkout/${purchaseItens.id}`)
-        axios.put(`${BASE_URL}/products/stock/${purchaseItens.id}`)
+      const finalizationPurchase = async () => {
+        try {
+           await axios.put(`${BASE_URL}/products/checkout/${purchaseItens.id}`)
+        .then((res) => {
+          setters.setAtualizationGets(states.atualizationGets + 1)
+        })
+         await axios.put(`${BASE_URL}/products/stock/${purchaseItens.id}`)
           .then((res) => {
             toast.success(`Compra finalizada com sucesso logo chegará em sua casa!`)
           })
-          .catch((res) => {
-            toast.error("Quantidade de produtos superior ao que existe no estoque")
-          })
         setters.setAtualizationGets(states.atualizationGets + 1)
+        } catch (error) {
+          toast.error("Produtos acima do limite permitido")
+        }
       }
 
       return finalizationPurchase()
@@ -59,7 +63,7 @@ const CartPage = () => {
                 <SelectForm type='date' min={today} />
               </FormPurchase>
 
-              <ButtonPurchase onClick={() => finishPurchase()}> Finalizar pedido</ButtonPurchase>
+              <ButtonPurchase  onClick={() => finishPurchase()}> Finalizar pedido</ButtonPurchase>
             
           </section>
         </>
