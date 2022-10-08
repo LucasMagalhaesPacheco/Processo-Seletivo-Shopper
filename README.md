@@ -12,6 +12,8 @@ https://documenter.getpostman.com/view/21555306/2s83zfRRK1#d66df008-187e-4e2f-82
 
 O Front foi publicado por meio surge, no endereço: http://case-shopper-lucas-surge.sh (Surge caiu, no sábado dia 08/10/2022) - Talvez tenha voltado dias posteriores.
 
+![image](https://user-images.githubusercontent.com/104689597/194714865-a53846e6-3446-4fef-8a7c-e0308d0df40d.png)
+
 O Deploy do Heroku pode-ser vista: https://case-shopper-lucas-magalhaes.herokuapp.com
 
 ## Entidades (TypeScript)
