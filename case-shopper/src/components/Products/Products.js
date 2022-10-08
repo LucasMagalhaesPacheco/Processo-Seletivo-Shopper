@@ -47,7 +47,7 @@ return (
     <ProductPrice>R$ {products.price}</ProductPrice>
     </ProductCardList>
     <ProductCardPrice> 
-        <ButtonAddCart key={products.id} onClick={() => addToCart(products)}>< BsFillCartPlusFill /> Comprar</ButtonAddCart>
+        <ButtonAddCart  onClick={() => addToCart(products)}>< BsFillCartPlusFill /> Comprar</ButtonAddCart>
     </ProductCardPrice>
   </ProductsCards>
 )
