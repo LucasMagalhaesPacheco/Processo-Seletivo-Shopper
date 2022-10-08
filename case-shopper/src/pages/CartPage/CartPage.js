@@ -13,7 +13,7 @@ const CartPage = () => {
   const today = new Date()
 
 
-  const finishPurchase =  () => {
+  const finishPurchas =  () => {
     states.productCartList && states.productCartList.map((purchaseItens) => {
       const finalizationPurchase = async () => {
         try {
