@@ -27,7 +27,6 @@ const CartPage = () => {
             setters.setAtualizationGets(states.atualizationGets + 1)
           })
           .catch((err) => {
-            toast.success("Quantidade inserida maior que a quantidade máxima do produto")
           })
       
     }
@@ -63,6 +62,9 @@ const CartPage = () => {
         axios.put(`${BASE_URL}/products/stock/${purchaseItens.id}`)
           .then((res) => {
             toast.success(`Compra finalizada com sucesso logo chegará em sua casa!`)
+          })
+          .catch((res) => {
+            toast.error("Quantidade de produtos superior ao que existe no estoque")
           })
         setters.setAtualizationGets(states.atualizationGets + 1)
       }

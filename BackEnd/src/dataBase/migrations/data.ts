@@ -21,18 +21,6 @@ export const products: IProductDBModelDTO[] = [
         qty_stock: 909
     },
     {
-        id:"19",
-        name:"ENERGÉTICO RED BULL ENERGY DRINK 250ML",	
-        price: 7.29,
-        qty_stock: 909
-    },
-    {
-        id:"19",
-        name:"ENERGÉTICO RED BULL ENERGY DRINK 250ML",	
-        price: 7.29,
-        qty_stock: 909
-    },
-    {
         id:"20",
         name:"ENERGÉTICO RED BULL ENERGY DRINK 355ML",	
         price: 10.79,
@@ -81,23 +69,11 @@ export const products: IProductDBModelDTO[] = [
         qty_stock: 160
     },
     {
-        id:"28",
-        name:"GUARDANAPO GRAND HOTEL SCOTT 24X24CM C/ 50UN",	
-        price: 4.39,
-        qty_stock: 160
-    },
-    {
         id:"29",
         name:"GUARDANAPO DIA A DIA SCOTT 24X22CM C/ 50UN",	
         price: 2.59,
         qty_stock: 411
     },    
-    {
-        id:"33",
-        name:"GUARDANAPO FOLHA DUPLA SNOB 23,5X23,5CM C/ 50UN",	
-        price: 4.25,
-        qty_stock: 411
-    },
     {
         id:"33",
         name:"GUARDANAPO FOLHA DUPLA SNOB 23,5X23,5CM C/ 50UN",	
@@ -128,12 +104,7 @@ export const products: IProductDBModelDTO[] = [
         price: 1.99,
         qty_stock: 163
     },
-    {
-        id:"40",
-        name:"PRATO DESCARTÁVEL COPOBRAS 18CM",	
-        price: 1.99,
-        qty_stock: 163
-    },
+
     {
         id:"41",
         name:"PRATO DESCARTÁVEL COPOBRAS 15CM",	
