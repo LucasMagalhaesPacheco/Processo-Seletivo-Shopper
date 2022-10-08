@@ -14,7 +14,6 @@ const Pagination = () => {
       setters.setPage(5)
       setters.setAtualizationGets(states.atualizationGets + 1)
    }
-
    const goToNextPage = () => {
       setters.setPage(states.page + 1)
       setters.setAtualizationGets(states.atualizationGets + 1)
