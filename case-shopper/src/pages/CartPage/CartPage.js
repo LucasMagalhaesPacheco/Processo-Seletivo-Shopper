@@ -61,6 +61,7 @@ const CartPage = () => {
             
                 <H1>Data de entrega:</H1>
                 <SelectForm type='date' min={today} />
+                
               </FormPurchase>
 
               <ButtonPurchase  onClick={() => finishPurchase()}> Finalizar pedido</ButtonPurchase>
