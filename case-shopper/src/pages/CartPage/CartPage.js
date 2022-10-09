@@ -57,10 +57,11 @@ const CartPage = () => {
               <H1>Valor total: R$ {totalPriceString}</H1>
               <H1>Pegaremos algumas informações sua para fazer entrega</H1>
               <FormPurchase>
-                  <InputForm placeholder='Seu Nome completo' />
+                  <InputForm placeholder='Seu Nome completo' required/>
             
                 <H1>Data de entrega:</H1>
-                <SelectForm type='date' min={today} />
+                <SelectForm type='date' min={today} required/>
+                
               </FormPurchase>
 
               <ButtonPurchase  onClick={() => finishPurchase()}> Finalizar pedido</ButtonPurchase>
