@@ -134,6 +134,7 @@ DB_SCHEMA = nome-do-banco-de-dados
 -   Postman API Platform
 -   Heroku: Cloud Application Platform
 -   Surge
+-   Vercel
 
 
 
