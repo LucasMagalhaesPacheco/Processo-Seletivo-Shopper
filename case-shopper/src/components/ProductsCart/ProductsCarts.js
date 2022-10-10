@@ -23,6 +23,7 @@ const ProductsCarts = () => {
           setters.setAtualizationGets(states.atualizationGets + 1)
         })
         .catch((err) => {
+          toast.error(err.response.message)
         })
     
   }
