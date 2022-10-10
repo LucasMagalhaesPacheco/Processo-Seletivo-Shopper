@@ -12,7 +12,7 @@ const CartPage = () => {
 
   return (
     <MainCartSection>
-      {states.productCartList.length > 0 ?
+      {states.productCartList.length && states.productCartList.length > 0 ?
         <>
             <ProductsCarts />
             <FinishPurchase />  

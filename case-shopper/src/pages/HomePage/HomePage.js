@@ -7,7 +7,7 @@ import { useContext } from "react"
 import Load from '../../assets/Loading.gif'
  const HomePage = () => {
 
-  const {states, setters} = useContext(GlobalContext)
+  const {states} = useContext(GlobalContext)
 
   return (
     <HomeMainSection>
