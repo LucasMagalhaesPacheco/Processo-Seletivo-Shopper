@@ -132,7 +132,6 @@ DB_SCHEMA = nome-do-banco-de-dados
 -   WorkBanch Studio
 -   Postman API Platform
 -   Heroku: Cloud Application Platform
--   Surge
 -   Vercel
 
 
@@ -152,6 +151,7 @@ DB_SCHEMA = nome-do-banco-de-dados
 - Pagina Inicial 🍁 - 
 - Nesta pagina podemos comprar produtos clicando em seu quadrado de compra e isso será enviado para seu carrinho.
 - Possui paginação até a página 5
+- Pagina possui Loading
 
 - Compras 🍁 - 
 - Nesta pagina podemos ver os produtos adicionado ao carrinho.
