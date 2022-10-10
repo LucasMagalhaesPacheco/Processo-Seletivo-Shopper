@@ -10,9 +10,9 @@ e o front-end em ReactJS. No back, utilizei as libs express, cors, dontenv, knex
 O deploy do back foi feito no Heroku e API documentada pode-se encontrada no endereço:
 https://documenter.getpostman.com/view/21555306/2s83zfRRK1#d66df008-187e-4e2f-825e-033bc602c40d
 
-O Front com  foi publicado por meio do vercel, no endereço: https://case-shopper-lucas.vercel.app/
+O Front com  foi publicado por meio do vercel, no endereço: https://case-shopper-lucas-lucasmagalhaespacheco.vercel.app/
 
-![image](https://user-images.githubusercontent.com/104689597/194786414-5cb27b72-e03b-4e37-983d-20e1ebb979c3.png)
+![image](https://user-images.githubusercontent.com/104689597/194856889-3981bf30-4902-484e-b074-5c200b34836a.png)
 
 
 O Deploy do Heroku pode-ser vista: https://case-shopper-lucas-magalhaes.herokuapp.com
