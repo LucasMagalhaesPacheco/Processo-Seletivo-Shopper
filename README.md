@@ -159,9 +159,6 @@ DB_SCHEMA = nome-do-banco-de-dados
 - Remover produtos
 - Finalizar a compra
 
-![Loading](https://user-images.githubusercontent.com/104689597/194789326-a3e76606-4089-487a-973a-1aba33ae2692.gif)
-
-
 ### Prints
 
 ![image](https://user-images.githubusercontent.com/104689597/194445653-ffa57f1f-e36d-49aa-b01b-cdcca2e277a6.png)
@@ -175,6 +172,8 @@ DB_SCHEMA = nome-do-banco-de-dados
 ![image](https://user-images.githubusercontent.com/104689597/194445770-dc9c9ca6-1797-45ee-8bf0-1b15672be4bb.png)
 
 ![image](https://user-images.githubusercontent.com/104689597/194445793-a668058f-c67b-4958-bc32-8e566bb96c84.png)
+
+![Loading](https://user-images.githubusercontent.com/104689597/194789326-a3e76606-4089-487a-973a-1aba33ae2692.gif)
 
 
 
