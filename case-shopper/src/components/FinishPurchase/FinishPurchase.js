@@ -53,9 +53,10 @@ const FinishPurchase = () => {
       <H1>Data de entrega:</H1>
       <SelectForm type='date' min={today} required/>
       
+      <ButtonPurchase  onClick={() => finishPurchase()}> Finalizar pedido</ButtonPurchase>
     </FormPurchase>
 
-    <ButtonPurchase  onClick={() => finishPurchase()}> Finalizar pedido</ButtonPurchase>
+    
     </>
   )
 }
