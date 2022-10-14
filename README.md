@@ -162,7 +162,7 @@ DB_SCHEMA = nome-do-banco-de-dados
 
 ### Prints
 
-![image](https://user-images.githubusercontent.com/104689597/195901401-e51f08c3-b453-4ec4-a6c6-cf8d1893e020.png)
+![image](https://user-images.githubusercontent.com/104689597/195904979-f1a257f6-f900-4020-a332-a33a4acaef02.png)
 
 ![image](https://user-images.githubusercontent.com/104689597/194445682-cddfda0f-583d-434a-869c-c2fa09bc6912.png)
 
