@@ -152,6 +152,7 @@ DB_SCHEMA = nome-do-banco-de-dados
 - Nesta pagina podemos comprar produtos clicando em seu quadrado de compra e isso será enviado para seu carrinho.
 - Possui paginação até a página 5
 - Pagina possui Loading
+- Buscar por nome
 
 - Compras 🍁 - 
 - Nesta pagina podemos ver os produtos adicionado ao carrinho.
@@ -161,7 +162,7 @@ DB_SCHEMA = nome-do-banco-de-dados
 
 ### Prints
 
-![image](https://user-images.githubusercontent.com/104689597/194445653-ffa57f1f-e36d-49aa-b01b-cdcca2e277a6.png)
+![image](https://user-images.githubusercontent.com/104689597/195901401-e51f08c3-b453-4ec4-a6c6-cf8d1893e020.png)
 
 ![image](https://user-images.githubusercontent.com/104689597/194445682-cddfda0f-583d-434a-869c-c2fa09bc6912.png)
 
