@@ -5,6 +5,7 @@ import { HomeMainSection } from "./Styled"
 import GlobalContext from "../../Global/GlobalContext"
 import { useContext } from "react"
 import Load from '../../assets/Loading.gif'
+import SearchProducts from "../../components/SearchProducts/SearchProducts"
  const HomePage = () => {
 
   const {states} = useContext(GlobalContext)
@@ -12,6 +13,7 @@ import Load from '../../assets/Loading.gif'
   return (
     <HomeMainSection>
       <Pagination />
+      < SearchProducts />
       {states.productList && states.productList.length > 0 ?
        <Products  /> :
       

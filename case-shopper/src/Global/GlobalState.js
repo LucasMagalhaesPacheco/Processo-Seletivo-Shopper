@@ -9,9 +9,10 @@ const GlobalState = (props) => {
     const [productCartList, setProductCartlist] = useState([])
     const [totalPriceCart, setTotalPriceCart] = useState(0)
     const [atualizationGets, setAtualizationGets] = useState(0)
+    const [search, setSearch] = useState("")
     
 const GetAllProducts = () => {
-    axios.get(`${BASE_URL}/products?page=${page}`)
+    axios.get(`${BASE_URL}/products?page=${page}&search=${search}`)
     .then((response) => {
         setProductList(response.data.products)   
     })
@@ -35,8 +36,8 @@ useEffect(() => {
 }, [atualizationGets])
 
 
-const states = {page, productList, productCartList, totalPriceCart, atualizationGets}
-const setters = {setPage, setProductList, setProductCartlist, setTotalPriceCart, setAtualizationGets}
+const states = {page, productList, productCartList, totalPriceCart, atualizationGets, search}
+const setters = {setPage, setProductList, setProductCartlist, setTotalPriceCart, setAtualizationGets, setSearch}
 
 return (
     <GlobalContext.Provider value={{states, setters}}>
