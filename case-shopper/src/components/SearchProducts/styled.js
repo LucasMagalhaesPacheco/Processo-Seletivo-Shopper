@@ -10,8 +10,8 @@ export const FormSearch = styled.form`
     }`
 
 export const InputForm = styled.input`
-    width: 100%;
-    height: 2.5rem;
+    width: 90%;
+    height: 2.2rem;
     border-radius: 10px;
     padding: 4px 8px;
     border-width: 3px;
