@@ -65,7 +65,7 @@ Representa os produtos do carrinho de nossa aplicação. Todo produto do carrinh
  ### Instalando as dependências:
  
  `npm install`:
- Instale todas as dependências listas no `package.json`
+ Instale todas as dependências listadas no `package.json`
  
  ## Introdução para rodar localmemte
  
