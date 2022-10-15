@@ -148,13 +148,13 @@ DB_SCHEMA = nome-do-banco-de-dados
  [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lucas-magalhaes-pacheco/)
 
 
-- Pagina Inicial 🍁 - 
+## Pagina Inicial 🍁  
 - Nesta pagina podemos comprar produtos clicando em seu quadrado de compra e isso será enviado para seu carrinho.
 - Possui paginação até a página 5
 - Pagina possui Loading
 - Buscar por nome
 
-- Compras 🍁 - 
+## Compras 🍁  
 - Nesta pagina podemos ver os produtos adicionado ao carrinho.
 - Podemos mudar sua quantidade 
 - Remover produtos
