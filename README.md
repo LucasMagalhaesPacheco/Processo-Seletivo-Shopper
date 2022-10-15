@@ -5,7 +5,7 @@
 # Teste Shopper
 
 Este teste foi realizado como um dos requisitos do processo seletivo para desenvolvedor Full-stack Junior na Shopper. O back end foi desenvolvido em NodeJS com Typescript e programação POO.
-e o front end em ReactJS. No back, utilizei as libs express, cors, dontenv, knex, mysql e uuid. No front, usei styled-components, axios, react-router-dom, toast. O Banco de dados relacional MYSQL utilizando Workbanch.
+e o front-end em ReactJS. No back-end, utilizei as libs express, cors, dontenv, knex, mysql e uuid. No front, usei styled-components, axios, react-router-dom, toast. O Banco de dados relacional MYSQL utilizando Workbanch.
 
 O deploy do Back foi feito no Heroku e API documentada pode-se encontrada no endereço:
 https://documenter.getpostman.com/view/21555306/2s83zfRRK1#d66df008-187e-4e2f-825e-033bc602c40d
