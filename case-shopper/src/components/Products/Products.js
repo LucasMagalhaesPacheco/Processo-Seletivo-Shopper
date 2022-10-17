@@ -37,7 +37,7 @@ const Products = () => {
     
     }) 
 } else {
-    toast.error("Produto já está no carrinho!")
+    toast.error("Produto já foi adicionado ao carrinho!")
 }
 
 }
