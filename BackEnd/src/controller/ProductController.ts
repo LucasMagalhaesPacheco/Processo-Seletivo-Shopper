@@ -1,5 +1,6 @@
 import { Request, Response } from "express";
 import { ProductBusiness } from "../business/ProductBusiness";
+import { BaseError } from "../error/BaseError";
 import { IAtualizationStockProductInputDTO, ICheckoutProductCartInputDTO, ICreateProductInputDTO, IDeleteProductCartInputDTO, IGetProductsInputDTO, IUpdateProductInputDTO } from "../interfaces/InterfaceProducts";
 
 
@@ -29,8 +30,8 @@ export class ProductController {
 
             res.status(200).send(response)
         } catch (error) {
-            if(error instanceof Error) {
-                return res.status(res.statusCode).send({message: error.message})
+            if(error instanceof BaseError) {
+                return res.status(error.statusCode).send({message: error.message})
             } // Verificação para não ser necessário tipar o Erro como Any
 
             res.status(500).send("Erro inesperado") // Erro de servidor
@@ -53,8 +54,8 @@ export class ProductController {
             res.status(201).send(response)
 
         } catch (error) {
-            if(error instanceof Error) {
-                return res.status(res.statusCode).send({message: error.message})
+            if(error instanceof BaseError) {
+                return res.status(error.statusCode).send({message: error.message})
             } // Verificação para não ser necessário tipar o Erro como Any
 
             res.status(500).send("Erro inesperado") // Erro de servidor
@@ -74,8 +75,9 @@ export class ProductController {
 
             res.status(201).send(response)
         } catch (error) {
-            if(error instanceof Error) {
-                return res.status(res.statusCode).send({message: error.message})
+            console.log(error)
+            if(error instanceof BaseError) {
+                return res.status(error.statusCode).send({message: error.message})
             } // Verificação para não ser necessário tipar o Erro como Any
 
             res.status(500).send("Erro inesperado") // Erro de servidor
@@ -90,8 +92,8 @@ export class ProductController {
             res.status(200).send(response)
 
         } catch (error) {
-            if(error instanceof Error) {
-                return res.status(res.statusCode).send({message: error.message})
+            if(error instanceof BaseError) {
+                return res.status(error.statusCode).send({message: error.message})
             } // Verificação para não ser necessário tipar o Erro como Any
 
             res.status(500).send("Erro inesperado") // Erro de servidor  
@@ -110,8 +112,8 @@ export class ProductController {
 
         res.status(202).send(response)
       } catch (error) {
-        if(error instanceof Error) {
-            return res.status(res.statusCode).send({message: error.message})
+        if(error instanceof BaseError) {
+            return res.status(error.statusCode).send({message: error.message})
         } // Verificação para não ser necessário tipar o Erro como Any
 
         res.status(500).send("Erro inesperado") // Erro de servidor
@@ -131,8 +133,8 @@ export class ProductController {
             res.status(202).send(response)
 
         } catch (error) {
-            if(error instanceof Error) {
-                return res.status(res.statusCode).send({message: error.message})
+            if(error instanceof BaseError) {
+                return res.status(error.statusCode).send({message: error.message})
             } // Verificação para não ser necessário tipar o Erro como Any
     
             res.status(500).send("Erro inesperado") // Erro de servidor
@@ -154,25 +156,14 @@ export class ProductController {
             res.status(202).send(response)
 
         } catch (error) {
-            if(error instanceof Error) {
-                return res.status(res.statusCode).send({message: error.message})
+            if(error instanceof BaseError) {
+                return res.status(error.statusCode).send({message: error.message})
             } // Verificação para não ser necessário tipar o Erro como Any
     
             res.status(500).send("Erro inesperado") // Erro de servidor
         }
     }
 
-    public getProductById = async (req: Request, res: Response) => {
-        try {
-            
-        } catch (error) {
-            if(error instanceof Error) {
-                return res.status(res.statusCode).send({message: error.message})
-            } // Verificação para não ser necessário tipar o Erro como Any
-    
-            res.status(500).send("Erro inesperado") // Erro de servidor
-        }
-    }
 
     
 }
