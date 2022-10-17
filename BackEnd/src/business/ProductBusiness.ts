@@ -99,6 +99,8 @@ export class ProductBusiness {
             throw new InvalidError("Parâmetro 'product_amount' inválido")
         }
 
+
+
         const id = this.generateId.generate()
         const totalPrice = product_price * product_amount
         const checkout: number = 0
