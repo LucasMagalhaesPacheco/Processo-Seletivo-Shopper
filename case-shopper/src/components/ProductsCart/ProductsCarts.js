@@ -23,7 +23,7 @@ const ProductsCarts = () => {
           setters.setAtualizationGets(states.atualizationGets + 1)
         })
         .catch((err) => {
-          toast.error("Produto superior ao que existe no estoque")
+          toast.error("Quantidade de produtos superior ao que existe no estoque")
         })
     
   }

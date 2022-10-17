@@ -17,7 +17,7 @@ const Products = () => {
         if (productCart.product_id === products.id) {
             return productCart
         } 
-        return undefined
+        
     })
 
     if(productToCart && productToCart.length === 0) {
@@ -37,7 +37,7 @@ const Products = () => {
     
     }) 
 } else {
-    toast.error("Produto já está no carrinho!")
+    toast.error("Produto já foi adicionado ao carrinho!")
 }
 
 }
