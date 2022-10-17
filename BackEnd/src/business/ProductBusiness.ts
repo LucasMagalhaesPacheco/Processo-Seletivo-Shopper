@@ -101,6 +101,7 @@ export class ProductBusiness {
 
 
 
+
         const id = this.generateId.generate()
         const totalPrice = product_price * product_amount
         const checkout: number = 0
