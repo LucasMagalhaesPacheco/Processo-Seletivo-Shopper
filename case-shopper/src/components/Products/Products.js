@@ -17,7 +17,7 @@ const Products = () => {
         if (productCart.product_id === products.id) {
             return productCart
         } 
-        return undefined
+        
     })
 
     if(productToCart && productToCart.length === 0) {
