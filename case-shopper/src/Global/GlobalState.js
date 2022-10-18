@@ -7,7 +7,6 @@ const GlobalState = (props) => {
     const [page, setPage] = useState(1)
     const [productList, setProductList] = useState([])
     const [productCartList, setProductCartlist] = useState([])
-    const [totalPriceCart, setTotalPriceCart] = useState(0)
     const [atualizationGets, setAtualizationGets] = useState(0)
     const [search, setSearch] = useState("")
     
