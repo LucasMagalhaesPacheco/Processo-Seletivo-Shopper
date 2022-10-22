@@ -35,8 +35,8 @@ useEffect(() => {
 }, [atualizationGets])
 
 
-const states = {page, productList, productCartList, totalPriceCart, atualizationGets, search}
-const setters = {setPage, setProductList, setProductCartlist, setTotalPriceCart, setAtualizationGets, setSearch}
+const states = {page, productList, productCartList,  atualizationGets, search}
+const setters = {setPage, setProductList, setProductCartlist, setAtualizationGets, setSearch}
 
 return (
     <GlobalContext.Provider value={{states, setters}}>
